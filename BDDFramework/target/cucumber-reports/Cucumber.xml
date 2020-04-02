@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="32.167091">
+<testcase classname="login page of Application" name="Verification of login functionality with invalid credential" time="20.983755">
+<system-out><![CDATA[Given Open the Firefox and launch the application...........................passed
+When Enter the Username "TEXTUSER" and Password "TESTPASSWORD"..............passed
+Then Click login button.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="login page of Application" name="Verification of login functionality with invalid credential 2" time="11.183336">
+<system-out><![CDATA[Given Open the Chrome and launch the application............................passed
+When Enter the Username "TEXTUSER" and Password "TESTPASSWORD"..............passed
+Then Click login button.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
